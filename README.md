@@ -68,7 +68,7 @@ And / or you can build a side navigation
               '<li class="nav-divider"><\/li>');
 
             $('#menuContainer').append('<div class=" main-menu-link">'+
-              '<a href="'+client_name+link+'">'+
+              '<a href="'+site_name+link+'">'+
               '<div class="home-menu-item"><span class="home-link">'+value.title+'<\/span><\/div>'+
               '<\/a><\/div><div class="separate-border"><\/div>');
 
@@ -76,7 +76,7 @@ And / or you can build a side navigation
         }
 
         $(function() {
-          $.getJSON(client_name+"contentasjson/menu/[whatever-content-type-you-want]", function(data) {
+          $.getJSON(site_name+"contentasjson/menu/[whatever-content-type-you-want]", function(data) {
             displayMenu(data);
           });
         });
