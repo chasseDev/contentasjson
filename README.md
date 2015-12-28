@@ -17,11 +17,11 @@ This is an extension of the [Drupal Content As JSON module](https://www.drupal.o
 
 You can build a top navigation
 
-![ScreenShot](https://raw.githubusercontent.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/master/screenshots/screenshot-ios7-share.png)
+![ScreenShot](https://raw.githubusercontent.com/chasseDev/contentasjson/master/screenshots/top-nav.png)
 
 And / or you can build a side navigation
 
-![ScreenShot](https://raw.githubusercontent.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/master/screenshots/screenshot-wp8-share.jpg)
+![ScreenShot](https://raw.githubusercontent.com/chasseDev/contentasjson/master/screenshots/side-nav.png)
 
 ## 3. Installation
 
