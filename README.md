@@ -3,13 +3,7 @@
 1. [Description](#1-description)
 2. [Screenshots](#2-screenshots)
 3. [Installation](#3-installation)
-	3. [Automatically (CLI / Plugman)](#automatically-cli--plugman)
 	3. [Manually](#manually)
-	3. [PhoneGap Build](#phonegap-build)
-4. Usage
-  4. [iOS and Android](#4a-usage-on-ios-and-android)
-  4. [Windows Phone](#4b-usage-on-windows-phone)
-  4. [Share-popover on iPad](#4c-share-popover-on-ipad)
 5. [Credits](#5-credits)
 6. [License](#6-license)
 
