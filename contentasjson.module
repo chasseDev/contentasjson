@@ -132,27 +132,6 @@ function contentasjson_get_data($type, $id) {
  * @return main menu item (array)
  */
 function _contentasjson_main_menu($id) {
-  // First try:
-  // $id = null;
-  // $main_menu = menu_main_menu();
-  //
-  // return $main_menu;
-
-  // Second try:
-  // $id is the node type
-  // $node_type = "drag_drop_page";
-
-  // $query=db_select('node','n');
-  // $query->join('menu_links', 'm', 'm.link_path = CONCAT("node/", n.nid)');
-  // $query->condition('n.type', $id, '=');
-  // $query->fields('n', array('nid', 'title', 'small_icon', 'home_icon'));
-  // // $query->fields('m', array('weight'));
-  // $result = $query->execute();
-  // $menu = $result->fetchAll();
-
-  // return $menu;
-
-  // Third try's a charm:
 
   $sql = "SELECT n.nid AS nid, n.title AS title, n.small_icon AS small_icon, n.home_icon AS home_icon FROM node n JOIN menu_links m ON m.link_path = CONCAT('node/', n.nid) ORDER BY m.weight";
 
